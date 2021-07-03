@@ -6,9 +6,11 @@ https://github.com/NetTopologySuite/ProjNet4GeoAPI[ProjNet] の便利メソッ�
 
 以下の拡張メソッドを追加します
 
-== ProjNet.CoordinateSystems.Transformations.CoordinateTransformationFactory#CreateFromSrid
+== CreateFromSrid
 
 SRID を指定して変換オブジェクトを作成するメソッド
+
+`ProjNet.CoordinateSystems.Transformations.CoordinateTransformationFactory` に対して追加します
 
 [source, c#]
 ----
