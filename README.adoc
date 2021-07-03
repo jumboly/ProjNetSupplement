@@ -1,5 +1,7 @@
 = ProjNetSupplement
 
+image:https://github.com/jumboly/ProjNetSupplement/actions/workflows/build.yml/badge.svg[Build]
+
 https://github.com/NetTopologySuite/ProjNet4GeoAPI[ProjNet] の便利メソッド集
 
 == インストール
