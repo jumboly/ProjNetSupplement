@@ -13,7 +13,7 @@ Install-Package Jumboly.ProjNetSupplement
 
 以下の拡張メソッドを追加します
 
-== CreateFromSrid
+=== CreateFromSrid
 
 SRID を指定して変換オブジェクトを作成するメソッド
 
@@ -24,9 +24,9 @@ SRID を指定して変換オブジェクトを作成するメソッド
 var factory = new CoordinateTransformationFactory();
 
 // SRIDを指定して 変換オブジェクトを作成
-ICoordinateTransformation transform = factory.CreateFromSrid(Srid.Tokyo, Srid.Wgs84);
+var transform = factory.CreateFromSrid(Srid.Tokyo, Srid.Wgs84);
 
-// 座標を変換 (座標は東京駅)
+// 作成された変換オブジェクトを使用して座標を変換 (座標は東京駅)
 var x1 = 139.767337;
 var y1 = 35.681231;
 var (x2, y2) = transform.MathTransform.Transform(x1, y1);
