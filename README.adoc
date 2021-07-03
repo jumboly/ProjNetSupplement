@@ -1,0 +1,27 @@
+= ProjNetSupplement
+
+https://github.com/NetTopologySuite/ProjNet4GeoAPI[ProjNet] の便利メソッド集
+
+
+== 拡張メソッド
+
+以下の拡張メソッドを追加します
+
+== ProjNet.CoordinateSystems.Transformations.CoordinateTransformationFactory#CreateFromSrid
+
+SRID を指定して変換オブジェクトを作成するメソッド
+
+[source, c#]
+----
+var factory = new CoordinateTransformationFactory();
+
+// SRIDを指定して 変換オブジェクトを作成
+ICoordinateTransformation transform = factory.CreateFromSrid(Srid.Tokyo, Srid.Wgs84);
+
+// 座標を変換 (座標は東京駅)
+var x1 = 139.767337;
+var y1 = 35.681231;
+var (x2, y2) = transform.MathTransform.Transform(x1, y1);
+
+Console.WriteLine($"{x1}, {y1} -> {x2}, {y2}");
+----
