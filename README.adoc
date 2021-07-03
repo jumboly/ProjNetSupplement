@@ -2,6 +2,13 @@
 
 https://github.com/NetTopologySuite/ProjNet4GeoAPI[ProjNet] の便利メソッド集
 
+== インストール
+
+[source]
+----
+Install-Package Jumboly.ProjNetSupplement
+----
+
 == 拡張メソッド
 
 以下の拡張メソッドを追加します
