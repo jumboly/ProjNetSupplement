@@ -32,11 +32,11 @@ var factory = new ProjNet.CoordinateSystems.Transformations.CoordinateTransforma
 var transform1 = factory.CreateFromSrid(Srid.Tokyo, Srid.Wgs84);
 
 // 作成された変換オブジェクトを使用して座標を変換 (座標は東京駅)
-var (x1, y1) = transform2.MathTransform.Transform(139.767337, 35.681231);
+var (x1, y1) = transform1.MathTransform.Transform(139.767337, 35.681231);
 
 
 // SRID を指定して変換処理を作成 
-var transform = factory.CreateFromSrid(4326, 900913); // 4326:WGS84  900913:Googleメルカトル
+var transform2 = factory.CreateFromSrid(4326, 900913); // 4326:WGS84  900913:Googleメルカトル
 
-var (x2, y2) = transform.MathTransform.Transform(139.767337, 35.681231);
+var (x2, y2) = transform2.MathTransform.Transform(139.767337, 35.681231);
 ----
