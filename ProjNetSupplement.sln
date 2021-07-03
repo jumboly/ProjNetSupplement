@@ -6,6 +6,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox.Cli", "sandbox\Sand
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjNetSupplement.Test", "src\ProjNetSupplement.Test\ProjNetSupplement.Test.csproj", "{55F50F29-74D3-4703-BFA4-A5B639644D16}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{01D4BFA5-2812-4E51-A973-65A15CA6E7BA}"
+ProjectSection(SolutionItems) = preProject
+	README.adoc = README.adoc
+EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

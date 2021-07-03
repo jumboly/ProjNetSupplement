@@ -4,7 +4,6 @@
         <TargetFramework>net5.0</TargetFramework>
         <PackageVersion>0.1.0</PackageVersion>
         <Authors>jumboly</Authors>
-        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageId>Jumboly.ProjNetSupplement</PackageId>
         <PackageProjectUrl>https://github.com/jumboly/ProjNetSupplement.git</PackageProjectUrl>
         <RepositoryUrl>https://github.com/jumboly/ProjNetSupplement.git</RepositoryUrl>
