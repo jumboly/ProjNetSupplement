@@ -1,0 +1,189 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <PackageVersion>0.1.0</PackageVersion>
+        <Authors>jumboly</Authors>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>Jumboly.ProjNetSupplement</PackageId>
+        <PackageProjectUrl>https://github.com/jumboly/ProjNetSupplement.git</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/jumboly/ProjNetSupplement.git</RepositoryUrl>
+        <PackageTags>GIS ProjNet</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="ProjNet" Version="2.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Remove=".\wkt\3857.wkt" />
+        <EmbeddedResource Include=".\wkt\3857.wkt" />
+        <None Remove=".\wkt\900913.wkt" />
+        <EmbeddedResource Include=".\wkt\900913.wkt" />
+        <None Remove=".\wkt\4326.wkt" />
+        <EmbeddedResource Include=".\wkt\4326.wkt" />
+        <None Remove=".\wkt\32651.wkt" />
+        <EmbeddedResource Include=".\wkt\32651.wkt" />
+        <None Remove=".\wkt\32652.wkt" />
+        <EmbeddedResource Include=".\wkt\32652.wkt" />
+        <None Remove=".\wkt\32653.wkt" />
+        <EmbeddedResource Include=".\wkt\32653.wkt" />
+        <None Remove=".\wkt\32654.wkt" />
+        <EmbeddedResource Include=".\wkt\32654.wkt" />
+        <None Remove=".\wkt\32655.wkt" />
+        <EmbeddedResource Include=".\wkt\32655.wkt" />
+        <None Remove=".\wkt\32656.wkt" />
+        <EmbeddedResource Include=".\wkt\32656.wkt" />
+        <None Remove=".\wkt\4301.wkt" />
+        <EmbeddedResource Include=".\wkt\4301.wkt" />
+        <None Remove=".\wkt\3092.wkt" />
+        <EmbeddedResource Include=".\wkt\3092.wkt" />
+        <None Remove=".\wkt\3093.wkt" />
+        <EmbeddedResource Include=".\wkt\3093.wkt" />
+        <None Remove=".\wkt\3094.wkt" />
+        <EmbeddedResource Include=".\wkt\3094.wkt" />
+        <None Remove=".\wkt\3095.wkt" />
+        <EmbeddedResource Include=".\wkt\3095.wkt" />
+        <None Remove=".\wkt\3096.wkt" />
+        <EmbeddedResource Include=".\wkt\3096.wkt" />
+        <None Remove=".\wkt\30161.wkt" />
+        <EmbeddedResource Include=".\wkt\30161.wkt" />
+        <None Remove=".\wkt\30162.wkt" />
+        <EmbeddedResource Include=".\wkt\30162.wkt" />
+        <None Remove=".\wkt\30163.wkt" />
+        <EmbeddedResource Include=".\wkt\30163.wkt" />
+        <None Remove=".\wkt\30164.wkt" />
+        <EmbeddedResource Include=".\wkt\30164.wkt" />
+        <None Remove=".\wkt\30165.wkt" />
+        <EmbeddedResource Include=".\wkt\30165.wkt" />
+        <None Remove=".\wkt\30166.wkt" />
+        <EmbeddedResource Include=".\wkt\30166.wkt" />
+        <None Remove=".\wkt\30167.wkt" />
+        <EmbeddedResource Include=".\wkt\30167.wkt" />
+        <None Remove=".\wkt\30168.wkt" />
+        <EmbeddedResource Include=".\wkt\30168.wkt" />
+        <None Remove=".\wkt\30169.wkt" />
+        <EmbeddedResource Include=".\wkt\30169.wkt" />
+        <None Remove=".\wkt\30170.wkt" />
+        <EmbeddedResource Include=".\wkt\30170.wkt" />
+        <None Remove=".\wkt\30171.wkt" />
+        <EmbeddedResource Include=".\wkt\30171.wkt" />
+        <None Remove=".\wkt\30172.wkt" />
+        <EmbeddedResource Include=".\wkt\30172.wkt" />
+        <None Remove=".\wkt\30173.wkt" />
+        <EmbeddedResource Include=".\wkt\30173.wkt" />
+        <None Remove=".\wkt\30174.wkt" />
+        <EmbeddedResource Include=".\wkt\30174.wkt" />
+        <None Remove=".\wkt\30175.wkt" />
+        <EmbeddedResource Include=".\wkt\30175.wkt" />
+        <None Remove=".\wkt\30176.wkt" />
+        <EmbeddedResource Include=".\wkt\30176.wkt" />
+        <None Remove=".\wkt\30177.wkt" />
+        <EmbeddedResource Include=".\wkt\30177.wkt" />
+        <None Remove=".\wkt\30178.wkt" />
+        <EmbeddedResource Include=".\wkt\30178.wkt" />
+        <None Remove=".\wkt\30179.wkt" />
+        <EmbeddedResource Include=".\wkt\30179.wkt" />
+        <None Remove=".\wkt\4612.wkt" />
+        <EmbeddedResource Include=".\wkt\4612.wkt" />
+        <None Remove=".\wkt\3097.wkt" />
+        <EmbeddedResource Include=".\wkt\3097.wkt" />
+        <None Remove=".\wkt\3098.wkt" />
+        <EmbeddedResource Include=".\wkt\3098.wkt" />
+        <None Remove=".\wkt\3099.wkt" />
+        <EmbeddedResource Include=".\wkt\3099.wkt" />
+        <None Remove=".\wkt\3100.wkt" />
+        <EmbeddedResource Include=".\wkt\3100.wkt" />
+        <None Remove=".\wkt\3101.wkt" />
+        <EmbeddedResource Include=".\wkt\3101.wkt" />
+        <None Remove=".\wkt\2443.wkt" />
+        <EmbeddedResource Include=".\wkt\2443.wkt" />
+        <None Remove=".\wkt\2444.wkt" />
+        <EmbeddedResource Include=".\wkt\2444.wkt" />
+        <None Remove=".\wkt\2445.wkt" />
+        <EmbeddedResource Include=".\wkt\2445.wkt" />
+        <None Remove=".\wkt\2446.wkt" />
+        <EmbeddedResource Include=".\wkt\2446.wkt" />
+        <None Remove=".\wkt\2447.wkt" />
+        <EmbeddedResource Include=".\wkt\2447.wkt" />
+        <None Remove=".\wkt\2448.wkt" />
+        <EmbeddedResource Include=".\wkt\2448.wkt" />
+        <None Remove=".\wkt\2449.wkt" />
+        <EmbeddedResource Include=".\wkt\2449.wkt" />
+        <None Remove=".\wkt\2450.wkt" />
+        <EmbeddedResource Include=".\wkt\2450.wkt" />
+        <None Remove=".\wkt\2451.wkt" />
+        <EmbeddedResource Include=".\wkt\2451.wkt" />
+        <None Remove=".\wkt\2452.wkt" />
+        <EmbeddedResource Include=".\wkt\2452.wkt" />
+        <None Remove=".\wkt\2453.wkt" />
+        <EmbeddedResource Include=".\wkt\2453.wkt" />
+        <None Remove=".\wkt\2454.wkt" />
+        <EmbeddedResource Include=".\wkt\2454.wkt" />
+        <None Remove=".\wkt\2455.wkt" />
+        <EmbeddedResource Include=".\wkt\2455.wkt" />
+        <None Remove=".\wkt\2456.wkt" />
+        <EmbeddedResource Include=".\wkt\2456.wkt" />
+        <None Remove=".\wkt\2457.wkt" />
+        <EmbeddedResource Include=".\wkt\2457.wkt" />
+        <None Remove=".\wkt\2458.wkt" />
+        <EmbeddedResource Include=".\wkt\2458.wkt" />
+        <None Remove=".\wkt\2459.wkt" />
+        <EmbeddedResource Include=".\wkt\2459.wkt" />
+        <None Remove=".\wkt\2460.wkt" />
+        <EmbeddedResource Include=".\wkt\2460.wkt" />
+        <None Remove=".\wkt\2461.wkt" />
+        <EmbeddedResource Include=".\wkt\2461.wkt" />
+        <None Remove=".\wkt\6668.wkt" />
+        <EmbeddedResource Include=".\wkt\6668.wkt" />
+        <None Remove=".\wkt\6688.wkt" />
+        <EmbeddedResource Include=".\wkt\6688.wkt" />
+        <None Remove=".\wkt\6689.wkt" />
+        <EmbeddedResource Include=".\wkt\6689.wkt" />
+        <None Remove=".\wkt\6690.wkt" />
+        <EmbeddedResource Include=".\wkt\6690.wkt" />
+        <None Remove=".\wkt\6691.wkt" />
+        <EmbeddedResource Include=".\wkt\6691.wkt" />
+        <None Remove=".\wkt\6692.wkt" />
+        <EmbeddedResource Include=".\wkt\6692.wkt" />
+        <None Remove=".\wkt\6669.wkt" />
+        <EmbeddedResource Include=".\wkt\6669.wkt" />
+        <None Remove=".\wkt\6670.wkt" />
+        <EmbeddedResource Include=".\wkt\6670.wkt" />
+        <None Remove=".\wkt\6671.wkt" />
+        <EmbeddedResource Include=".\wkt\6671.wkt" />
+        <None Remove=".\wkt\6672.wkt" />
+        <EmbeddedResource Include=".\wkt\6672.wkt" />
+        <None Remove=".\wkt\6673.wkt" />
+        <EmbeddedResource Include=".\wkt\6673.wkt" />
+        <None Remove=".\wkt\6674.wkt" />
+        <EmbeddedResource Include=".\wkt\6674.wkt" />
+        <None Remove=".\wkt\6675.wkt" />
+        <EmbeddedResource Include=".\wkt\6675.wkt" />
+        <None Remove=".\wkt\6676.wkt" />
+        <EmbeddedResource Include=".\wkt\6676.wkt" />
+        <None Remove=".\wkt\6677.wkt" />
+        <EmbeddedResource Include=".\wkt\6677.wkt" />
+        <None Remove=".\wkt\6678.wkt" />
+        <EmbeddedResource Include=".\wkt\6678.wkt" />
+        <None Remove=".\wkt\6679.wkt" />
+        <EmbeddedResource Include=".\wkt\6679.wkt" />
+        <None Remove=".\wkt\6680.wkt" />
+        <EmbeddedResource Include=".\wkt\6680.wkt" />
+        <None Remove=".\wkt\6681.wkt" />
+        <EmbeddedResource Include=".\wkt\6681.wkt" />
+        <None Remove=".\wkt\6682.wkt" />
+        <EmbeddedResource Include=".\wkt\6682.wkt" />
+        <None Remove=".\wkt\6683.wkt" />
+        <EmbeddedResource Include=".\wkt\6683.wkt" />
+        <None Remove=".\wkt\6684.wkt" />
+        <EmbeddedResource Include=".\wkt\6684.wkt" />
+        <None Remove=".\wkt\6685.wkt" />
+        <EmbeddedResource Include=".\wkt\6685.wkt" />
+        <None Remove=".\wkt\6686.wkt" />
+        <EmbeddedResource Include=".\wkt\6686.wkt" />
+        <None Remove=".\wkt\6687.wkt" />
+        <EmbeddedResource Include=".\wkt\6687.wkt" />
+    </ItemGroup>
+
+</Project>
