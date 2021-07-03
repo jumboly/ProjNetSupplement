@@ -27,9 +27,24 @@ var factory = new CoordinateTransformationFactory();
 var transform = factory.CreateFromSrid(Srid.Tokyo, Srid.Wgs84);
 
 // 作成された変換オブジェクトを使用して座標を変換 (座標は東京駅)
-var x1 = 139.767337;
-var y1 = 35.681231;
-var (x2, y2) = transform.MathTransform.Transform(x1, y1);
-
-Console.WriteLine($"{x1}, {y1} -> {x2}, {y2}");
+var (x, y) = transform.MathTransform.Transform(139.767337, 35.681231);
 ----
+
+==== 使用可能な SRID
+
+使用可能な SRID の一覧
+
+https://github.com/jumboly/ProjNetSupplement/tree/main/src/ProjNetSupplement/wkt
+
+変換元・変換先のSRIDを指定して使用します
+
+[source,c#]
+----
+var factory = new CoordinateTransformationFactory();
+
+// WSG84(4326) から Googleメルカトル(900913) に変換
+var transform = factory.CreateFromSrid(4326, 900913);
+
+var (x, y) = transform.MathTransform.Transform(139.767337, 35.681231);
+----
+
